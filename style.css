@@ -518,7 +518,7 @@ h2 {
   margin-bottom: 1.25rem;
 }
 
-.highlight {
+.highlights {
   color: #a00;
   font-weight: bold;
 }
@@ -531,8 +531,8 @@ h2 {
 }
 
 .bar {
-  width: 0.6rem;
-  height: 5rem;
+  width: 0.6;
+  height: 100%;
 }
 
 .card-content {
@@ -1549,7 +1549,7 @@ h2 {
   }
 
   .bar {
-    height: 5rem;
+    height: 100%;
     width: 0.6rem;
   }
 
