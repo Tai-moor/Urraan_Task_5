@@ -318,18 +318,18 @@ h3 {
 
 .bold {
   font-weight: bold;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .red {
   color: #8b3030;
   font-weight: bold;
-  font-size: 1.75rem;
+  font-size: 1.5rem;
 }
 
 .highlight {
   margin-top: 0.625rem;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: #8b3030;
   font-weight: bold;
   margin-bottom: 0.5rem;
@@ -340,10 +340,6 @@ h3 {
   gap: 15px;
   align-items: center;
   margin: 15px 0;
-}
-
-.paragraph {
-  width: 70%;
 }
 
 .paragraph p {
@@ -493,7 +489,7 @@ h3 {
 }
 
 .badges img {
-width: 11rem;
+  width: 11rem;
 }
 
 .right-box h3 {
@@ -1056,8 +1052,8 @@ h2 {
   }
 
   .container > div {
-    width: 100%; 
-    }
+    width: 100%;
+  }
 
   .container {
     padding: 1rem;
@@ -1815,7 +1811,6 @@ h2 {
 
   .badges img {
     width: 10rem;
-    
   }
 
   .badge {
