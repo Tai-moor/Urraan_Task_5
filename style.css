@@ -896,20 +896,6 @@ h2 {
     max-width: 100%;
   }
 
-  .badges {
-    height: auto;
-    gap: 0.8rem;
-    margin-left: 0;
-    margin-bottom: 0.5rem;
-    flex-wrap: wrap;
-  }
-
-  .badges img {
-    width: 30%;
-    height: auto;
-    max-height: 80px;
-  }
-
   .right-box h3 {
     font-size: 1.4rem;
   }
@@ -1014,17 +1000,16 @@ h2 {
   }
 
   .badges {
-    height: auto;
+    height: 45%;
     gap: 0.8rem;
     margin-left: 0;
-    margin-bottom: 0.5rem;
+    margin-bottom: 1.3rem;
     flex-wrap: wrap;
   }
 
   .badges img {
-    width: 30%;
+    width: 40%;
     height: auto;
-    max-height: 80px;
   }
 
   .right-box h3 {
@@ -1350,17 +1335,18 @@ h2 {
   }
 
   .badges {
-    height: auto;
+    height: 45%;
     gap: 0.6rem;
     margin-left: 0;
     margin-bottom: 0.5rem;
     width: 100%;
+    justify-content: center;
   }
 
   .badges img {
     width: 28%;
     height: auto;
-    max-height: 70px;
+    margin: 0 10px;
   }
 
   .right-box h3 {
@@ -1406,13 +1392,13 @@ h2 {
   }
 
   .case-results {
-    grid-column: 2;
-    grid-row: 2;
+    grid-column: 1;
+    grid-row: 3;
   }
 
   .right-box {
-    grid-column: 1;
-    grid-row: 3;
+    grid-column: 2;
+    grid-row: 2 / span 3;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1426,6 +1412,9 @@ h2 {
     padding: 12px;
   }
 
+  .right-box {
+    margin-top: 20px;
+  }
   .bold,
   .red {
     font-size: 1.5rem;
@@ -1504,18 +1493,14 @@ h2 {
     max-width: 100%;
   }
 
-  .badges img {
-    width: 28%;
-    height: auto;
-    max-height: 70px;
-  }
-
   .right-box h3 {
     font-size: 1.3rem;
+    width: 80%;
   }
 
   .right-box p {
     font-size: 1rem;
+    width: 80%;
   }
 
   .line {
