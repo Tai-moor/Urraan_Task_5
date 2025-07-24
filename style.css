@@ -74,7 +74,6 @@ body {
 .navbar a {
   text-decoration: none;
   color: aliceblue;
-
   font-size: 1.125rem;
   font-weight: bold;
 }
@@ -291,7 +290,7 @@ input::placeholder {
 
 .top-section {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 30% 40% 30%;
   grid-template-rows: auto auto;
   margin: auto;
   padding: 30px 20px;
@@ -459,8 +458,8 @@ h3 {
 }
 
 .image img {
-  width: 15rem;
-  max-width: 200px;
+  width: 10rem;
+
   height: auto;
   object-fit: contain;
 }
@@ -489,7 +488,7 @@ h3 {
 }
 
 .badges img {
-  width: 11rem;
+  width: 9rem;
 }
 
 .right-box h3 {
@@ -503,7 +502,6 @@ h3 {
 .container {
   display: flex;
   padding: 1.25rem;
-  gap: 1.875rem;
 }
 
 .practice-container {
@@ -592,6 +590,7 @@ h2 {
 
 .main-content {
   width: 50%;
+  padding: 1rem;
 }
 
 .main-content h1 {
@@ -627,7 +626,9 @@ h2 {
   margin: 0;
   line-height: 1.4;
 }
-
+.info-item .client {
+  display: block;
+}
 .info-item .bold {
   color: #990000;
   font-weight: bold;
@@ -1051,10 +1052,6 @@ h2 {
     gap: 1.25rem;
   }
 
-  .container > div {
-    width: 100%;
-  }
-
   .container {
     padding: 1rem;
     gap: 1.25rem;
@@ -1063,22 +1060,33 @@ h2 {
   .practice-container {
     margin-right: 1rem;
   }
-
+  .sidebar-left {
+    width: 90%;
+    margin: 0 auto;
+  }
   .main-content {
-    width: 48%;
+    width: 90%;
+    margin: 0 auto;
+    grid-column: 1 / span 2;
+    grid-row: 1;
   }
-
   .sidebar-right {
-    width: 22%;
+    width: 90%;
+    margin: 0 auto;
+    grid-row: 2;
+    grid-column: 2;
   }
-
   .info-box {
     width: 100%;
   }
 
+  .badge {
+    display: flex;
+    justify-content: center;
+  }
   .badge img {
-    width: 12rem;
-    margin: 0 auto;
+    width: 9rem;
+    margin: 0 2rem;
   }
 
   .cta-btn {
@@ -1111,10 +1119,15 @@ h2 {
   .social div {
     font-size: 1.25rem;
     padding: 1rem 1.5rem;
+    text-align: center;
+    background-size: auto;
   }
-
+  .icon {
+    justify-content: center;
+  }
   .icon img {
     width: 2rem;
+    margin: 0 0.5rem;
   }
 }
 
@@ -1499,14 +1512,6 @@ h2 {
     max-width: 100%;
   }
 
-  .badges {
-    height: auto;
-    gap: 0.6rem;
-    margin-left: 0;
-    margin-bottom: 0.5rem;
-    width: 100%;
-  }
-
   .badges img {
     width: 28%;
     height: auto;
@@ -1540,14 +1545,22 @@ h2 {
     gap: 1rem;
     padding: 1rem;
   }
-
-  .container > div,
-  .main-content,
-  .sidebar-right,
   .sidebar-left {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
-
+  .main-content {
+    width: 90%;
+    margin: 0 auto;
+    grid-column: 1 / span 2;
+    grid-row: 1;
+  }
+  .sidebar-right {
+    width: 90%;
+    margin: 0 auto;
+    grid-row: 2;
+    grid-column: 2;
+  }
   .bar {
     height: 100%;
     width: 0.6rem;
@@ -1588,6 +1601,7 @@ h2 {
   }
 
   .badge {
+    display: flex;
     padding-left: 0;
     text-align: center;
   }
@@ -1601,6 +1615,8 @@ h2 {
     font-size: 1.25rem;
     padding: 1rem 1.25rem;
     background-size: 90% 10px;
+    text-align: center;
+    background-size: auto;
   }
 
   .icon {
