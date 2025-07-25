@@ -699,7 +699,7 @@ h2 {
   margin-right: 0.3125rem;
 }
 
-@media (max-width: 1200px) and (min-width: 1024px) {
+@media (max-width: 1350px) and (min-width: 1024px) {
   html {
     font-size: 88%;
   }
@@ -1410,11 +1410,10 @@ h2 {
   .case-results,
   .right-box {
     padding: 12px;
+    border: 1px solid gray;
+    margin: 0.5rem;
   }
 
-  .right-box {
-    margin-top: 20px;
-  }
   .bold,
   .red {
     font-size: 1.5rem;
@@ -1513,8 +1512,6 @@ h2 {
 
   .text-image {
     padding: 10px 0;
-    border-left: none;
-    border-right: none;
   }
   .container {
     display: grid;
@@ -1967,9 +1964,9 @@ h2 {
 
   .badge img {
     width: 10rem;
-    margin: 0 auto;
+    margin: 1.3rem auto;
   }
-
+  
   .social div {
     font-size: 1.125rem;
     padding: 0.75rem 1rem;
